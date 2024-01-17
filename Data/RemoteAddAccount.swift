@@ -1,0 +1,23 @@
+//
+//  RemoteAddAcount.swift
+//  Data
+//
+//  Created by Alex Oliveira on 17/01/24.
+//
+
+import Foundation
+import Domain
+
+public class RemoteAddAccount {
+    private let url: URL
+    private let httpClient: HttpPostClient
+    
+    public init (url: URL, httpClient: HttpPostClient) {
+        self.url = url
+        self.httpClient = httpClient
+    }
+    
+    public func add(addAccountModel: AddAccountModel) {
+        httpClient.post(url: url, data: addAccountModel.toData())
+    }
+}
