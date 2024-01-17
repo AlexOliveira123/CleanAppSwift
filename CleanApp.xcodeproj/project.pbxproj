@@ -14,6 +14,7 @@
 		A8B4EC9B2B5843B4005674FC /* RemoteAddAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4EC9A2B5843B4005674FC /* RemoteAddAccountTests.swift */; };
 		A8B4ECA42B58441E005674FC /* Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A890722F2B56B5990079926E /* Domain.framework */; };
 		A8B4ECA52B58441E005674FC /* Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A890722F2B56B5990079926E /* Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A8B4ECAA2B585625005674FC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4ECA92B585625005674FC /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A8B4EC8E2B5843B4005674FC /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B4EC952B5843B4005674FC /* DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B4EC9A2B5843B4005674FC /* RemoteAddAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccountTests.swift; sourceTree = "<group>"; };
+		A8B4ECA92B585625005674FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				A89072322B56B5990079926E /* Domain.docc */,
 				A8B4EC852B582F15005674FC /* AddAccount.swift */,
 				A8B4EC872B58309A005674FC /* AccountModel.swift */,
+				A8B4ECA92B585625005674FC /* Model.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				A89072332B56B5990079926E /* Domain.docc in Sources */,
 				A8B4EC882B58309A005674FC /* AccountModel.swift in Sources */,
 				A8B4EC862B582F15005674FC /* AddAccount.swift in Sources */,
+				A8B4ECAA2B585625005674FC /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
