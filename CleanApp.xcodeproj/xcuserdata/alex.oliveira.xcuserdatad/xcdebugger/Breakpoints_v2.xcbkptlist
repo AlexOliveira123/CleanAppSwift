@@ -30,8 +30,8 @@
             filePath = "InfraTests/AlamofireAdapterTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "startLoading()"
             landmarkType = "7">
             <Locations>
@@ -78,8 +78,8 @@
             filePath = "InfraTests/AlamofireAdapterTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "canInit(with:)"
             landmarkType = "7">
          </BreakpointContent>
