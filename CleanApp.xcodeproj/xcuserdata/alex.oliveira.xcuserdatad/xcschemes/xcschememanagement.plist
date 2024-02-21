@@ -29,6 +29,11 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>UseCasesIntegrationTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>A8B4EC942B5843B4005674FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8BE10FB2B865264003438DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
