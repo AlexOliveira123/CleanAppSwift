@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A8354E222B728C9700A97762 /* ExtensionHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8354E212B728C9700A97762 /* ExtensionHelpers.swift */; };
 		A89072332B56B5990079926E /* Domain.docc in Sources */ = {isa = PBXBuildFile; fileRef = A89072322B56B5990079926E /* Domain.docc */; };
+		A896133A2B858D3C002A191B /* AlamofireAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89613392B858D3C002A191B /* AlamofireAdapter.swift */; };
+		A896133E2B858E7C002A191B /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = A896133D2B858E7C002A191B /* URLProtocolStub.swift */; };
 		A8B4EC862B582F15005674FC /* AddAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4EC852B582F15005674FC /* AddAccount.swift */; };
 		A8B4EC882B58309A005674FC /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4EC872B58309A005674FC /* AccountModel.swift */; };
 		A8B4EC962B5843B4005674FC /* Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B4EC8E2B5843B4005674FC /* Data.framework */; };
@@ -93,6 +95,8 @@
 		A8354E212B728C9700A97762 /* ExtensionHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelpers.swift; sourceTree = "<group>"; };
 		A890722F2B56B5990079926E /* Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89072322B56B5990079926E /* Domain.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Domain.docc; sourceTree = "<group>"; };
+		A89613392B858D3C002A191B /* AlamofireAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireAdapter.swift; sourceTree = "<group>"; };
+		A896133D2B858E7C002A191B /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
 		A8B4EC852B582F15005674FC /* AddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAccount.swift; sourceTree = "<group>"; };
 		A8B4EC872B58309A005674FC /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
 		A8B4EC8E2B5843B4005674FC /* Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +204,23 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
+		A896133B2B858DED002A191B /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				A89613392B858D3C002A191B /* AlamofireAdapter.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		A896133C2B858E5E002A191B /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB74882B731134005FE3F2 /* AlamofireAdapterTests.swift */,
+				A896133D2B858E7C002A191B /* URLProtocolStub.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		A8B4EC8F2B5843B4005674FC /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +319,7 @@
 		A8EB74742B7310F8005FE3F2 /* Infra */ = {
 			isa = PBXGroup;
 			children = (
+				A896133B2B858DED002A191B /* Http */,
 			);
 			path = Infra;
 			sourceTree = "<group>";
@@ -305,7 +327,7 @@
 		A8EB747E2B7310F8005FE3F2 /* InfraTests */ = {
 			isa = PBXGroup;
 			children = (
-				A8EB74882B731134005FE3F2 /* AlamofireAdapterTests.swift */,
+				A896133C2B858E5E002A191B /* Http */,
 			);
 			path = InfraTests;
 			sourceTree = "<group>";
@@ -456,6 +478,7 @@
 					};
 					A8EB74722B7310F8005FE3F2 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					A8EB74792B7310F8005FE3F2 = {
 						CreatedOnToolsVersion = 15.2;
@@ -565,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A896133A2B858D3C002A191B /* AlamofireAdapter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +599,7 @@
 				A8EB74902B731220005FE3F2 /* TestFactories.swift in Sources */,
 				A8EB74892B731134005FE3F2 /* AlamofireAdapterTests.swift in Sources */,
 				A8EB748F2B731211005FE3F2 /* TestExtensions.swift in Sources */,
+				A896133E2B858E7C002A191B /* URLProtocolStub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -903,6 +928,7 @@
 		A8EB74832B7310F8005FE3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -929,6 +955,7 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -936,6 +963,7 @@
 		A8EB74842B7310F8005FE3F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -969,6 +997,7 @@
 		A8EB74862B7310F8005FE3F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32QLT39CJ3;
@@ -986,6 +1015,7 @@
 		A8EB74872B7310F8005FE3F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32QLT39CJ3;
