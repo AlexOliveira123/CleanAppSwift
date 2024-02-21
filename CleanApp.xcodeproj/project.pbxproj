@@ -105,6 +105,7 @@
 		A8B4ECA92B585625005674FC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A8B4ECAB2B5856B9005674FC /* RemoteAddAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddAccount.swift; sourceTree = "<group>"; };
 		A8B4ECAD2B5856EF005674FC /* HttpPostClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpPostClient.swift; sourceTree = "<group>"; };
+		A8BE10F72B863963003438DC /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 		A8D926E32B5EC09D00D01722 /* DomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainError.swift; sourceTree = "<group>"; };
 		A8D926E52B5EC25100D01722 /* HttpError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpError.swift; sourceTree = "<group>"; };
 		A8EB74652B730E89005FE3F2 /* TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestExtensions.swift; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 		A89072142B56B48F0079926E = {
 			isa = PBXGroup;
 			children = (
+				A8BE10F72B863963003438DC /* CI.xctestplan */,
 				A89072302B56B5990079926E /* Domain */,
 				A8B4EC8F2B5843B4005674FC /* Data */,
 				A8B4EC992B5843B4005674FC /* DataTests */,
